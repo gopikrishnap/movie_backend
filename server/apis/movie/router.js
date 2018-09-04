@@ -3,7 +3,7 @@ let router=express.Router();
 
 let movieController = require('./controller')
 
-router.use('/movieDetails',movieController.moviesdata)
+router.post('/movieDetails',movieController.moviesdata)
 
 
 module.exports=router;
